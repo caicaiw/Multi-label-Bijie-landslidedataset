@@ -33,8 +33,8 @@ from torch.utils.data import DataLoader
 import os
 
 # Configure data path
-kw = 'landslide_sar'
-root_path = r'D:\data_set\examples\cropped_images'
+kw = 'multilabel-bijie-landslide-dataset'
+root_path = r'D:\data_set\'
 data_dir = os.path.join(root_path, kw)
 train_path = os.path.join(data_dir, 'train.csv')
 val_path = os.path.join(data_dir, 'valid.csv')
