@@ -10,7 +10,7 @@ Traditional landslide detection methods mainly rely on optical remote sensing im
 ## Dataset content
 
 - **IMAGE**: JPEG format。
-- **LABEL**: Contained in three CSV files：`multilabel.csv`, `train.csv`, `valid.csv`。
+- **LABEL**: Contained in three CSV files：`multilabel.csv` `train.csv` `valid.csv`
 
 ## Dataset Structure
 
@@ -33,7 +33,7 @@ from torch.utils.data import DataLoader
 import os
 
 # Configure data path
-kw = 'multilabel-bijie-landslide-dataset'
+kw = 'multilabel_bijie_landslide_dataset'
 root_path = r'D:\data_set\'
 data_dir = os.path.join(root_path, kw)
 train_path = os.path.join(data_dir, 'train.csv')
