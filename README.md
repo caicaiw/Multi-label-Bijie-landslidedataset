@@ -21,8 +21,7 @@ multilabel-bijie-landslide-dataset/
 │   ├── ddfgf20158.jpg
 │   └── ...
 ├── multilabel.csv
-├── train.csv
-└── valid.csv
+
 ```
 
 ## Usage Example
