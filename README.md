@@ -10,7 +10,7 @@ Traditional landslide detection methods mainly rely on optical remote sensing im
 ## Dataset content
 
 - **IMAGE**: JPEG format。
-- **LABEL**: Contained in three CSV files：`multilabel.csv` `train.csv` `valid.csv`
+- **LABEL**: Contained in three CSV files：`multilabel.csv`
 
 ## Dataset Structure
 
